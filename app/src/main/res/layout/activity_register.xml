@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="40px"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/tv_RegisterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Username"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_registerUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"/>
+
+    <TextView
+        android:id="@+id/tv_RegisterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_registerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <TextView
+        android:id="@+id/tv_RegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <TextView
+        android:id="@+id/tv_RegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Password"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+    <View
+        android:layout_width="198dp"
+        android:layout_height="3dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <Button
+        android:id="@+id/btn_toLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Login"/>
+
+</LinearLayout>
